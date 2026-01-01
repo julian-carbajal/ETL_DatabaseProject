@@ -1,0 +1,40 @@
+# Enterprise Data Engineering Platform - Dependencies
+# Python 3.9+
+
+# Database
+sqlalchemy>=2.0.0
+sqlite3  # Built-in
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional: For PostgreSQL support
+# psycopg2-binary>=2.9.0
+
+# Optional: For MySQL support
+# pymysql>=1.0.0
+
+# Optional: For advanced analytics
+# scipy>=1.10.0
+# scikit-learn>=1.2.0
+
+# Optional: For API development
+# fastapi>=0.100.0
+# uvicorn>=0.22.0
+
+# Optional: For workflow orchestration
+# apache-airflow>=2.6.0
+# prefect>=2.10.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
