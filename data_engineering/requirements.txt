@@ -3,7 +3,7 @@
 
 # Database
 sqlalchemy>=2.0.0
-sqlite3  # Built-in
+# sqlite3  # Built-in
 
 # Data Processing
 pandas>=2.0.0
@@ -11,6 +11,9 @@ numpy>=1.24.0
 
 # Utilities
 python-dateutil>=2.8.0
+
+# Dashboard
+streamlit>=1.28.0
 
 # Optional: For PostgreSQL support
 # psycopg2-binary>=2.9.0
@@ -29,6 +32,10 @@ python-dateutil>=2.8.0
 # Optional: For workflow orchestration
 # apache-airflow>=2.6.0
 # prefect>=2.10.0
+
+# Optional: For real streaming (currently using in-memory simulation)
+# kafka-python>=2.0.0
+# redis>=4.5.0
 
 # Testing
 pytest>=7.0.0
